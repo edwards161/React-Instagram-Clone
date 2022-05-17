@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin: 200px;
 }
 
 .App-logo {
@@ -35,4 +36,30 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+img {
+  height: 300px;
+  width: 300px;
+  margin: 10px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: center;
+}
+
+li {
+  margin: 5px;
+}
+
+.index {
+  background-color: #fafafa
 }
