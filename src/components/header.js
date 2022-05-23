@@ -1,8 +1,10 @@
+
 export const Header = ({ title }) => {
     return(
         <div>
             <div>PP ICON</div>
             <h1>instagram</h1>
+            <h1>{title}</h1>
             <ul>
                 <li>000 posts</li>
                 <li>000 followers</li>
